@@ -1,0 +1,10 @@
+<wpml-config>  
+    <admin-texts>
+        <key name="br_wish_list_text_settings">
+            <key name="wish_list" />
+            <key name="wait_list" />
+            <key name="show_wish" />
+            <key name="show_wait" />
+        </key>
+    </admin-texts> 
+</wpml-config>

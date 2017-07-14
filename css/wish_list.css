@@ -1,0 +1,188 @@
+.colorpicker_field{width: 30px; height: 30px; margin: 0 auto; border: 1px solid black; position: relative!important;}
+.woocommerce ul.products .berocket_lgv_additional_data .lgv_addtocart_advanced div.br_wish_wait_block span.br_ww_button, 
+div.berocket_lgv_additional_data .lgv_addtocart_advanced div.br_wish_wait_block span.br_ww_button,
+div.br_wish_wait_block span.br_ww_button {
+    padding: 0.5em 0;
+    display: inline-block;
+    text-align: center;
+    border-style: solid;
+}
+span.br_ww_button.br_ww_button_40 {
+    width: 50%!important;
+    margin:0;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+span.br_ww_button {
+    color: #515151;
+    background-color: #ebe9eb;
+    padding: 0.5em 0!important;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 100%;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    font-family: inherit;
+}
+.woocommerce ul.products .berocket_lgv_additional_data .lgv_addtocart_advanced div.br_wish_wait_block span.br_ww_button:hover, 
+div.berocket_lgv_additional_data .lgv_addtocart_advanced div.br_wish_wait_block span.br_ww_button:hover,
+div.br_wish_wait_block span.br_ww_button:hover {
+    background-color: #dad8da;
+    text-decoration: none;
+    background-image: none;
+    color: #515151;
+}
+.woocommerce ul.products .berocket_lgv_additional_data .lgv_addtocart_advanced div.br_wish_wait_block span.br_ww_button_40:first-child, 
+div.berocket_lgv_additional_data .lgv_addtocart_advanced div.br_wish_wait_block span.br_ww_button_40:first-child,
+div.br_wish_wait_block span.br_ww_button_40:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.woocommerce ul.products .berocket_lgv_additional_data .lgv_addtocart_advanced div.br_wish_wait_block span.br_ww_button_40:last-child, 
+div.berocket_lgv_additional_data .lgv_addtocart_advanced div.br_wish_wait_block span.br_ww_button_40:last-child,
+.products div.br_wish_wait_block span.br_ww_button_40:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+div.br_wish_wait_block .br_ww_input {
+    display: none;
+}
+.woocommerce ul.products .berocket_lgv_additional_data .lgv_addtocart_advanced div.br_wish_wait_block span.br_ww_button_true, 
+div.berocket_lgv_additional_data .lgv_addtocart_advanced div.br_wish_wait_block span.br_ww_button_true,
+div.br_wish_wait_block  span.br_ww_button_true {
+    background-color: #f0fff0;
+}
+div.br_wish_wait_block span.br_ww_button .fa.ww_animate:before,
+div.br_wish_wait_block span.br_ww_button .fa.ww_animate img {
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.berocket_ww_list_title {
+    text-align: center;
+}
+.berocket_ww_container {
+    position: relative;
+    padding-bottom: 1.5em;
+}
+.berocket_ww_list {
+    max-height: 500px;
+    overflow: auto;
+    overflow-x: visible;
+    overflow-y: auto;
+}
+.berocket_ww_list ul{
+    list-style: none;
+    margin: 0;
+}
+.berocket_ww_list ul li {
+    float: left;
+    width: 24%;
+    padding: 0 5px;
+}
+.berocket_ww_list ul li:nth-child(4n + 1) {
+    clear: both;
+}
+.berocket_ww_list ul li h3 {
+    margin-top: 1em;
+    padding-top: 0;
+}
+.berocket_ww_list ul li p {
+    padding: 0;
+    margin: 0.1em 0;
+}
+.berocket_ww_list .berocket_ww_product {
+    position: relative;
+    
+}
+.berocket_ww_list .berocket_ww_product .berocket_ww_remove {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    vertical-align: middle;
+}
+.berocket_ww_container .berocket_ww_show_all {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    background-color: #eee;
+    border: 1px solid #999;
+    text-align: center;
+    padding: 0;
+    line-height: 1.5em;
+}
+.berocket_ww_container .berocket_ww_show_all:hover {
+    background-color: #ddd;
+}
+.wish_list_submit_form .colorpicker_field {
+    margin: auto;
+}
+
+.brcs_slider .brcs_product{
+    width: 25%;
+    display: inline-block;
+    padding: 2px;
+    margin: 0;
+}
+.unslider-arrow {
+    display: block;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    right: -50px;
+    left: auto;
+    margin-top: -10px;
+    overflow: hidden;
+    background: rgba(0,0,0,.2) no-repeat 50% 50%;
+    font: normal normal normal 14px/1 FontAwesome;
+    background-size: 7px 11px;
+    border-radius: 32px;
+    opacity: .6;
+    transition: opacity .2s;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+}
+.unslider-arrow.prev:after{
+    content: "\f053";
+}
+.unslider-arrow.next:after{
+    content: "\f054";
+}
+.unslider{
+    position: relative;
+}
+.unslider .brcs_slider {
+    margin: 0 20px;
+}
+.unslider .unslider-arrow.prev {
+    left: 0;
+}
+.unslider .unslider-arrow.next {
+    right: 0;
+}
+.unslider .unslider-nav {
+    display:none;
+}
+.br_ww_button img {
+    margin: 0!important;
+    padding: 0!important;
+}

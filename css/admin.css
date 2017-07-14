@@ -1,0 +1,80 @@
+.berocket_compare_products_styler {
+    background-color: #ffffff;
+    border: 1px solid #999;
+}
+.berocket_compare_products_styler input[type=text] {
+    width: 100%;
+}
+.berocket_compare_products_styler th,
+.berocket_compare_products_styler td {
+    padding: 0.3em;
+}
+.berocket_compare_products_styler thead th {
+    text-align: center;
+}
+.berocket_compare_products_styler thead tr,
+.berocket_compare_products_styler tfoot tr {
+    border-top: 1px solid #999;
+}
+.berocket_compare_products_styler .admin-column-color {
+    text-align: center;
+    width: 10%;
+}
+.berocket_compare_products_styler .all_theme_default_compare {
+    float: right;
+}
+.berocket_compare_products_styler input {
+    text-align: center;
+}
+.wish_list_submit_form textarea {
+    width: 100%;
+    resize: vertical;
+    min-height: 4em;
+}
+.berocket_ww_position_table {
+    border-collapse: collapse;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    min-width: 100%;
+}
+.berocket_ww_position_table td,
+.berocket_ww_position_table th {
+    border: 1px solid #999;
+    padding: 0.5em;
+    width: initial;
+}
+.berocket_ww_position_table th {
+    text-align: left;
+}
+.berocket_ww_position_table td {
+    text-align: center;
+}
+.berocket_pos_table_head {
+    text-align: center;
+}
+.berocket_ww_position_table input[type=text] {
+    max-width: 100px;
+}
+.berocket_ww_position_table thead {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.berocket_ww_position_table thead th {
+    text-align: center;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.berocket_ww_position_table h3.button{
+    font-size: 2em;
+    width: 100%;
+    min-width: 400px;
+    text-align: center;
+    padding: 5px;
+    height: initial;
+}
+.berocket_ww_position_table h3.button .fa {
+    padding-left: 1em;
+    float: right;
+}
